@@ -14,7 +14,7 @@ import { getFeaturedPosts } from "../lib/posts-util";
 //   },
 // ];
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div className="container">
       <Head></Head>
